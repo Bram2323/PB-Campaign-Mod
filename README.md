@@ -13,14 +13,20 @@ To install: Place this .dll in the ...\Poly Bridge 2\BepInEx\plugins folder
 
 # How to create and export campaigns
 (You can open the console with [`])
+
 Use "create_campaign <name>" to create an empty campaign
+
 Load a layout in sandbox and use "add_this_level <campaign>" to add the level to the campaign (It wel set its owner to the setting "Name"), do this for every level you want to add. (You need to fill in a name in the workshop menu)
+
 You can test the campaign using "load_campaign <campaign>"
+
 To export it to a .campaign file use "export_campaign <campaign>"
 
 # How to import and load campaigns
 Put the .campaign file in BepInEx/plugins/CampaignMod/Exports (You can create the folder if it does not exist)
+
 Use "import_campaign <name>" to import the campaign
+
 Now use "load_campaign <campaign>" or "load_all_campaigns" to load the campaign
 
 # Console Commands
